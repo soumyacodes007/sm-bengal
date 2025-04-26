@@ -1,4 +1,4 @@
-# SMART BENGAL HACKATHON DATA PRIVCY CHALLENGE 
+# SMART BENGAL HACKATHON DATA PRIVACY CHALLENGE 
 
 **TEAM LEAD** = Soumyadeep Bhowmik
 
@@ -8,9 +8,18 @@ TLDR
 
 Key Metrics & Results:
 Initial High+Medium Confidence Match Rate: 98.91%.
+
+
 Matches potentially corrected by ML: 575.
+
+
 Matches potentially corrected by Distance Refinement: 799.
+
+
 Final Matched Records: matched_records_final.csv.
+
+
+
 Key Finding: Protection primarily involved minor scaling (factor ~1.0) and low-variance Gaussian-like noise around zero difference for most variables.
 
 ## 1. Project Goal
