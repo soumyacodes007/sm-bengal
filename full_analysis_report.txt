@@ -1,0 +1,33 @@
+========================================
+ Adversarial Attack Analysis Report
+========================================
+
+I. Matching Summary:
+  Total protected records: 20000
+  Initial High confidence matches: 15241
+  Initial Medium confidence matches: 4540
+  Initial Low confidence matches: 219
+  Initial Match Rate (High + Medium): 98.91%
+  Matches potentially changed by ML Refinement: 558
+  Matches potentially changed by Distance Refinement: 801
+
+------------------------------
+
+II. Transformation Analysis Summary (from high-confidence pairs):
+  - Income: Type=scaling, Details=(Factor ~1.0006 (Ratio StdDev: 0.0351))
+  - Rent: Type=scaling, Details=(Factor ~1.0007 (Ratio StdDev: 0.0384))
+  - Loan_Repayment: Type=noise_or_complex, Details=(Complex/Noise (Diff Mean: 1.94, Diff StdDev: 526.95))
+  - Insurance: Type=scaling, Details=(Factor ~1.0007 (Ratio StdDev: 0.0374))
+  - Groceries: Type=scaling, Details=(Factor ~1.0004 (Ratio StdDev: 0.0381))
+  - Transport: Type=scaling, Details=(Factor ~1.0005 (Ratio StdDev: 0.0391))
+  - Eating_Out: Type=scaling, Details=(Factor ~1.0008 (Ratio StdDev: 0.0400))
+  - Entertainment: Type=scaling, Details=(Factor ~1.0004 (Ratio StdDev: 0.0371))
+  - Utilities: Type=scaling, Details=(Factor ~1.0006 (Ratio StdDev: 0.0361))
+  - Healthcare: Type=scaling, Details=(Factor ~1.0001 (Ratio StdDev: 0.0352))
+  - Education: Type=scaling, Details=(Factor ~1.0009 (Ratio StdDev: 0.0494))
+  - Miscellaneous: Type=scaling, Details=(Factor ~1.0005 (Ratio StdDev: 0.0372))
+
+------------------------------
+
+III. Noise Analysis and Epsilon Estimation (from high-confidence pairs):
+  Note: Epsilon estimates depend heavily on ASSUMED sensitivity values.
